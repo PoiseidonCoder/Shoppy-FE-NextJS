@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import AppRouterCacheProvider from "./../node_modules/@mui/material-nextjs/v13-appRouter/appRouterV13";
+import { AppRouterCacheProvider } from "@mui/material-nextjs/v13-appRouter";
 import { Container, CssBaseline, ThemeProvider } from "@mui/material";
 import darkTheme from "./dark.theme";
 

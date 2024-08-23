@@ -7,5 +7,4 @@ const darkTheme = createTheme({
     mode: "dark",
   },
 });
-
 export default darkTheme;
